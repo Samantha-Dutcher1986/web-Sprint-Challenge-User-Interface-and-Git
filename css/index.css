@@ -65,12 +65,48 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.topnav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.topnav .home{
+    color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.topnav .about{
+    color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.topnav .products{
+    color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.topnav .blog{
+    color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.topnav .contact{
+    color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.img{
+    margin:20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -224,12 +260,17 @@ p {
     justify-content: center;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.bottom-content .text-container .thats {
+    display:flex;
+    justify-content: center;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+    width: 80%;
+    padding: 0 20%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
