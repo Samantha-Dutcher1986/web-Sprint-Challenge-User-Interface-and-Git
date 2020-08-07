@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 .topnav{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -105,7 +106,10 @@ p {
     margin: 0 auto;
 }
 .img{
+    width:100%;
     margin:20px;
+    display: flex;
+    justify-content: center;
 }
 .top-content {
     display: flex;
@@ -248,29 +252,32 @@ p {
 }
 
 .bottom-content {
+    border: 2px solid olive;
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-    width: 12.5%;
+    width: 100%;
     height: 100px;
     margin: 20px 2.5%;
-    color: white;
+    color:black;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
 }
 
 .bottom-content .text-container .thats {
+    border: 2px solid blueviolet
+    padding: 20%;
     display:flex;
     justify-content: center;
 }
 
-.bottom-content .text-container:last-child {
+.bottom-content .text-container .moon {
+    border: 2px solid orangered;
     width: 80%;
-    padding: 0 20%;
+    padding: 0 15%;
     padding-bottom: 10px;
-    display: flex;
     justify-content: center;
+    text-wrap: wrap;
 }
 
 footer {
