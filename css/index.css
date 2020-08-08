@@ -75,32 +75,56 @@ p {
     padding: 2%;
     display: flex;
     justify-content: center;
+    transition: 2s;
+}
+.topnav .home:hover{
+    background-color: seagreen;
+    color: seashell;
 }
 .topnav .about{
     color: black;
     padding: 2%;
     display: flex;
     justify-content: center;
+    transition: 2s;
+}
+.topnav .about:hover{
+    background-color: palevioletred;
+    color: peachpuff;
 }
 .topnav .products{
     color: black;
     padding: 2%;
     display: flex;
     justify-content: center;
+    transition: 2s;
+}
+.topnav .products:hover{
+    background-color: teal;
+    color: thistle;
 }
 .topnav .blog{
     color: black;
     padding: 2%;
     display: flex;
     justify-content: center;
+    transition: 2s;
+}
+.topnav .blog:hover{
+    background-color: darkorchid;
+    color: darksalmon;
 }
 .topnav .contact{
     color: black;
     padding: 2%;
     display: flex;
     justify-content: center;
+    transition: 2s;
 }
-
+.topnav .contact:hover{
+    background-color: hotpink;
+    color: honeydew;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -251,8 +275,7 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
-    border: 2px solid olive;
+.bottom-content{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
@@ -260,7 +283,6 @@ p {
     height: 100px;
     margin: 20px 2.5%;
     color:black;
-    display: flex;
     align-items: stretch;
 }
 
