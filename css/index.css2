@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+/* header{
+    border: 4px solid red;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-evenly;
+} */
+.topnav {
+  /* border: 4px solid red; */
+  width: 50%;
+  margin-left: 25%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.topnav img{
+    padding: 0.5%;
+}
+.topnav img:hover {
+  transition: 2s;
+  background-color: crimson;
+  border-radius: 5px;
+}
+.topnav a {
+  color: black;
+  font-weight: bold;
+  padding: 2%;
+  text-decoration: none;
+}
+.topnav a:hover {
+    transition: 2s;
+    background-color: crimson;
+    border-radius: 5px;
+}
+.headerImg{
+    /* border: 4px solid blue; */
+    display: flex;
+    justify-content: center;
+}
